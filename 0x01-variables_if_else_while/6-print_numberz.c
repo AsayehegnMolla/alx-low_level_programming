@@ -13,7 +13,7 @@ int main(void)
 {
 	int num;
 
-	fot (i = '0'; i < '10'; i++)
+	fot (i = 0; i < 10; i++)
 		putchar("%d%", i);
 	putchar("\n");
 
