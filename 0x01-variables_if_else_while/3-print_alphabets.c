@@ -10,12 +10,11 @@
 
 int main(void)
 {
-	char ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+	char ch;
 
-	int i;
-	for (i = 0;i < strlen(ch);i++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch[i]);
+		putchar(ch);
 		putchar("\n");
 	}
 
