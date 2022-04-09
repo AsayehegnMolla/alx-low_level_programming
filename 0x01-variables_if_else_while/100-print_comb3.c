@@ -16,7 +16,7 @@ int main(void)
 	for (num1 = '0'; num1 <= '9'; num1++)
 	{
 		num2 = num1 + 1;
-		for (num2 = '0'; num2 <= '9'; num2++)
+		for (num2 ; num2 <= '9'; num2++)
 		{
 			if (num1 == num2)
 				continue;
@@ -25,11 +25,14 @@ int main(void)
 				putchar(num1);
 				putchar(num2);
 			}
-		}
-		if (num1 < '9')
-		{
-			putchar(',');
-			putchar(' ');
+
+			if (num1 < '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+
+			
 		}
 	}
 
