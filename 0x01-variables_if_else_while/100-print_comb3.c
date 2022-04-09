@@ -25,7 +25,7 @@ int main(void)
 				putchar(num2);
 			}
 
-			if (num1 < '9')
+			if (num1 < '8')
 			{
 				putchar(',');
 				putchar(' ');
