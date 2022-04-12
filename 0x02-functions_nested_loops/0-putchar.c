@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -13,7 +15,7 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(name[i]);
+		putchar(name[i]);
 	}
 	putchar('\n');
 	
