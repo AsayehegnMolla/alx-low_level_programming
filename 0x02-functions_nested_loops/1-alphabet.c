@@ -3,8 +3,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * print_alphabet - pritn small case alphabet
  */
 
 void print_alphabet(void)
