@@ -10,7 +10,10 @@
 int _strlen(char *s)
 {
 	int len;
+	int i;
 
-	len = strlen(*s);
+	for (i = 0; s[i] != '\0'; i++)
+		len++;
+
 	return (len);
 }
