@@ -21,10 +21,10 @@ void puts_half(char *str)
 	}
 	while (str[var] != '\0')
 	{
-		_putchar(str[var]);
+		putchar(str[var]);
 		var++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
 
 /**
