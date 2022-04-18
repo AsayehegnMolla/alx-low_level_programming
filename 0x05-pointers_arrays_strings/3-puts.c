@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _puts - print character to stdout
+ * @str: string to be printed
+ *
+ * Return: void funtion
+ **/
+
 void _puts(char *str)
 {
 	int i;
