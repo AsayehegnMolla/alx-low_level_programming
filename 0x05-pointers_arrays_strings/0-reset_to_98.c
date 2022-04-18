@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * reset_to_98 - update a variable to 98 using a pointer
+ * @n: points to the variable n
  *
- * Return: Always 0.
+ * Return: void funtion
  */
 
 void rest_to_98(int *n)
