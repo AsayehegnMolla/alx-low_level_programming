@@ -1,27 +1,6 @@
 #include "main.h"
 
 /**
- * rev_string - print in reverse
- * @s: string to be reversed
- *
- * Return: void funtion
- **/
-void rev_string(char *s)
-{
-	int var = 0, lent;
-
-	lent = _strlen(s) - 1;
-
-	while (lent > var)
-	{
-		/* what are youuuuu*/
-		swap_char(s + lent, s + var);
-		lent--;
-		var++;
-	}
-}
-
-/**
  * _strlen - return the length of a a string
  * @s: string to be checked
  *
@@ -54,4 +33,25 @@ void swap_char(char *a, char *b)
 	var = *a;
 	*a = *b;
 	*b = var;
+}
+
+/**
+ * rev_string - print in reverse
+ * @s: string to be reversed
+ *
+ * Return: void funtion
+ **/
+void rev_string(char *s)
+{
+	int var = 0, lent;
+
+	lent = _strlen(s) - 1;
+
+	while (lent > var)
+	{
+		/* what are youuuuu*/
+		swap_char(s + lent, s + var);
+		lent--;
+		var++;
+	}
 }
