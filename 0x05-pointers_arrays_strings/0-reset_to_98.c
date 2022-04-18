@@ -7,7 +7,7 @@
  * Return: void funtion
  */
 
-void rest_to_98(int *)
+void rest_to_98(int *n)
 {
 	*n = 98;
 }
