@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  * _memset - function that fills memory with a constant byte.
  * @s: destenation of string
  * @b: character to replace
@@ -18,6 +18,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-
 	return (s);
 }
