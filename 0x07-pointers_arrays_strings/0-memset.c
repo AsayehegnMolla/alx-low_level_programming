@@ -6,6 +6,7 @@
  * @s: destenation of string
  * @b: character to replace
  * @n: size of bytes to be used
+ *
  * Return: a pointer to the resulting string
  */
 
