@@ -9,13 +9,13 @@
 
 int factorial(int n)
 {
-	int sum = 1;
+	int product = 1;
 
-	while (n > 0)
-	{
-		sum *= n;
-		factorial(n - 1);
-	}
+	if (n < 0)
+		return (-1);
+	else if (n == 0)
+		return (1);
+	product = factorial(n - 1);
 
-	return (sum);
+	return (n * product);
 }
