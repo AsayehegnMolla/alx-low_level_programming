@@ -6,6 +6,7 @@
  * @y: the exponent
  *
  * Return: the n(th) power of a number
+ */
 
 int _pow_recursion(int x, int y)
 {
