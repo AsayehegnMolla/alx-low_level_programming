@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _pow_recursion - calculate the n(th)power of a number
+ * _pow_recursion - calculate the nth power of a number
  * @x: number to be used
  * @y: the exponent
  *
- * Return: the n(th) power of a number
+ * Return: the nth power of a number
  */
 
 int _pow_recursion(int x, int y)
